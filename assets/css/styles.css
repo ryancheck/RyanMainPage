@@ -605,8 +605,12 @@ img {
     width: 90%;
 }
 
+.skills__swiftUI {
+    width: 90%;
+}
+
 .skills__swift {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__java {
@@ -760,6 +764,18 @@ img {
     margin: var(--mb-2) 0;
 }
 
+.portfolio__title__2 {
+    display: block;
+    font-size: var(--smaller-font-size);
+    font-weight: 300;
+    color: var(--text-color);
+    margin: var(--mb-1-5) 0;
+}
+
+.portfolio__title__hstack {
+    display: inline-block;
+}
+
 .portfolio__content:hover .portfolio__img {
     transform: scale(1.02);
 }
@@ -772,7 +788,7 @@ img {
 /*=== CONTACT ME ===*/
 
 .portfolio__container {
-    row-gap: 3rem;
+    row-gap: 2rem;
 }
 
 .contact__information {
