@@ -138,7 +138,7 @@
                 </div>
                 
                 <div class="about__data">
-                    <p class="about__description">I am a highly motivated, enthusiastic, and reliable professional who specialized in the project and product management area. I have more than 6 years of working experience in mechanical-related firms. My position gives me the authority to lead my projects starting from the design stage, which includes establishing the working model, planning the timeline and milestone, sourcing the qualified suppliers, meeting the spec as well as the test standards, ensuring everything is on track, and fulfilling our customer’s expectation. I am able to communicate at all levels internally and externally with strong problem-solving skills.
+                    <p class="about__description">As a seasoned project and product manager with over 6 years of experience in the mechanical industry, I bring a unique combination of strong leadership, technical knowledge, and excellent communication skills to the table. I have a proven track record of successfully leading projects from design to delivery, consistently meeting timelines, standards, and customer expectations. My ability to source qualified suppliers, make informed decisions, and solve complex problems has contributed to the successful completion of numerous projects. I am a highly motivated and enthusiastic professional who is committed to delivering high-quality results, and I am confident in my ability to effectively communicate with stakeholders at all levels.
                     </p>
 
                     <div class="about__info">
@@ -670,21 +670,21 @@
 
                 <!--= PORTFOLIO CONTENT 6 =-->
                 <div class="portfolio__content mix web">
-                    <a href="#"><img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"></a>
+                    <a href="#"><img src="assets/img/MyWebPage.png" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
-                        <span class="portfolio__subtitle">Web development</span>
-                        <a href="#" class="portfolio__title">My portfolio web</a>
+                        <span class="portfolio__subtitle">Web Development</span>
+                        <a href="#" class="portfolio__title">My Portfolio Web</a>
                         <a href="#" class="button button-link">View Details</a>
                     </div>
                 </div>
 
                 <!--= PORTFOLIO CONTENT 7 =-->
                 <div class="portfolio__content mix game">
-                    <a href="#"><img src="assets/img/work2.jpg" alt="" class="portfolio__img"></a>
+                    <a href="#"><img src="assets/img/blahblahman.webp" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Computer Game</span>
-                        <a href="#" class="portfolio__title">2D jump game</a>
-                        <a href="#" class="button button-link">View Details</a>
+                        <a href="#" class="portfolio__title">Blah Blah Man (2D Game)</a>
+                        <a href="https://youtu.be/HGjPZhQMG_U" class="button button-link">View Details</a>
                     </div>
                 </div>
        
@@ -734,37 +734,49 @@
 
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formsubmit.co/ry4novak@gmail.com" class="contact__form grid" method="post">
                     <div class="contact__inputs grid">
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input id="contact_name" type="text" name="name" class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input id="contact_email" type="email" name="email" class="contact__input">
                         </div>
 
                     </div>
 
-                    <div class="contact__content">
+                    <!-- <div class="contact__content">
                         <label for="" class="contact__label">Number</label>
-                        <input type="number" class="contact__input">
-                    </div>
+                        <input id="contact_number" type="text" name="message" class="contact__input">
+                    </div> -->
                     
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="message" id="contact_message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit" class="button button--flex">
+                            <a>
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </button>
+                    </div>
+                
+
+                    <!-- <div>
+                        <a type="submit" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </form>
             </div>
         </section>
