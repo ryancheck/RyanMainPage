@@ -28,7 +28,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 // TYPING TEXT ANIMATION
 var typed = new Typed(".typing", {
-    strings: ["NPI Project Manager", "Mechanical Engineer", "iOS App Developer"],
+    strings: ["iOS App Developer", "NPI Project Manager", "Mechanical Engineer"],
     typeSpeed: 60,
     backSpeed: 20,
     loop: true
